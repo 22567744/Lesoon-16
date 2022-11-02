@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.body{
+	font-family: "Lato";
+	color: #424551;
+	line-height: 1.5;
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.main_container{
+	padding: 180px 0;
+  display: flex;
+}
+
+.form-photo{
+	display: flex;
+	flex: 1 1 40%;
+}
+
+.main-content{
+	flex: 1 1 60%;
+}
+
+.title-block{
+	color: black;
+}
+
+.form-subtitle-one{
+	font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 8px;
+}
+
+
+
+.form-subtitle-two{
+	font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: black;
+}
+
+
+.menu-tab{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  margin-bottom: 48px;
+  margin-top: 64px;
+}
+
+.text-form{
+	display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 25px;
+}
+.block-line{
+	flex: 1 1 50%;
+  max-width: 340px;
+}
+.form-label{
+	padding-bottom: 8px;
+  display: inline-block;
+}
+.form-input{
+	border: 1px solid #D7DADD;
+  line-height: 1.6;
+  padding: 13px 16px;
+}
+
+.block-area{
+	display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.form-area{
+   min-height: 120px;
+   padding: 30px 40px;
+   border: 1px solid #D7DADD;
+   border-radius: 4px;
+   margin-bottom: 48px;
+   margin-top: 48px;
+}
+
+.checkbox-input{
+	display: flex;
+	gap: 40px;
+}
+.checkbox-label{
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.checkbox-label::before{
+	background: #FF3F3A url("../img/check.svg") center / 70% no-repeat;
+	content: "";
+  width: 16px;
+  height: 16px;
+	margin-top: 4px;
+	border-radius: 4px;
+  outline: 1px solid #D7DADD;
+}
+
+
+.active-form{
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  font-weight: 700;
+  color: white;
+  padding: 16px 40px;
+  margin-left: 370px;
+}
+
+.button-active{
+	font-weight: 400;
+  line-height: 160%;
+}
